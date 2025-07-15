@@ -192,122 +192,121 @@
     let selectedNode = null;
 
     const fixedSubnodePositions = {
-      23: {x: 852, y: 138 },
-      24: {x: 470, y: 265 },
-      25: {x: 495, y: 272 },
-      26: {x: 471, y: 245 },
-      27: {x: 498, y: 231 },
-      28: {x: 525, y: 218 },
-      29: {x: 552, y: 204 },
-      30: {x: 447, y: 289 },
-      31: {x: 449, y: 320 },
-      32: {x: 633, y: 222 },
-      33: {x: 606, y: 207 },
-      34: {x: 632, y: 246 },
-      35: {x: 604, y: 254 },
-      36: {x: 577, y: 263 },
-      37: {x: 549, y: 271 },
-      38: {x: 521, y: 73  },      
-      39: {x: 550, y: 70  },      
-      40: {x: 676, y: 77  },      
-      41: {x: 617, y: 76  },      
-      42: {x: 555, y: 87  },      
-      43: {x: 819, y: 328 },
-      44: {x: 821, y: 298 },
-      45: {x: 824, y: 267 },
-      46: {x: 826, y: 237 },
-      47: {x: 790, y: 358 },
-      48: {x: 764, y: 358 },
-      49: {x: 738, y: 357 },
-      50: {x: 712, y: 357 },
-      51: {x: 686, y: 356 },
-      52: {x: 660, y: 356 },
-      53: {x: 634, y: 355 },
-      54: {x: 608, y: 354 },
-      55: {x: 582, y: 354 },
-      56: {x: 556, y: 353 },
-      57: {x: 530, y: 353 },
-      58: {x: 504, y: 352 },
-      59: {x: 478, y: 352 },
-      60: {x: 790, y: 339 },
-      61: {x: 764, y: 319 },
-      62: {x: 738, y: 299 },
-      63: {x: 712, y: 278 },
-      64: {x: 686, y: 258 },
-      65: {x: 814, y: 159 },
-      66: {x: 798, y: 148 },
-      67: {x: 782, y: 138 },
-      68: {x: 766, y: 127 },
-      69: {x: 750, y: 117 },
-      70: {x: 734, y: 106 },
-      71: {x: 718, y: 96  },      
-      72: {x: 504, y: 297 },
-      73: {x: 487, y: 315 },
-      74: {x: 469, y: 333 },
-      75: {x: 565, y: 213 },
-      76: {x: 550, y: 235 },
-      77: {x: 536, y: 257 },
-      78: {x: 566, y: 166 },
-      79: {x: 552, y: 141 },
-      80: {x: 539, y: 115 },
-      81: {x: 620, y: 156 },
-      82: {x: 661, y: 120 },
-      83: {x: 580, y: 164 },
-      84: {x: 582, y: 138 },
-      85: {x: 583, y: 111 },
+      23: {x: 863 , y: 134 },
+      24: {x: 455 , y: 277 },
+      25: {x: 466 , y: 295 },
+      26: {x: 455 , y: 277},
+      27: {x: 512 , y: 249 },
+      28: {x: 552 , y: 228 },
+      29: {x: 595 , y: 206 },
+      30: {x: 455 , y: 277 },
+      31: {x: 466 , y: 295 },
+      32: {x: 664 , y: 188 },
+      33: {x: 595 , y: 206 },
+      34: {x: 644 , y: 262},
+      35: {x: 620 , y: 271},
+      36: {x: 592  , y: 279 },
+      37: {x:591  , y: 250},
+      38: {x: 542 , y: 71 },      
+      39: {x: 544 , y: 88 },      
+      40: {x: 678 , y: 70  },           
+      42: {x: 544 , y: 88 },      
+      43: {x: 831 , y: 329 },
+      44: {x: 833 , y: 285 },
+      45: {x: 853 , y: 263 },
+      46: {x: 839 , y: 231 },
+      47: {x: 768 , y: 347 },
+      48: {x: 765 , y: 304 },
+      49: {x: 764 , y: 264 },
+      50: {x: 747 , y: 257 },
+      51: {x: 725 , y: 252 },
+      52: {x: 699 , y: 264 },
+      53: {x: 662 , y: 270 },
+      54: {x: 615 , y: 287 },
+      55: {x: 588 , y: 296 },
+      56: {x:553, y: 309},
+      57: {x: 522 , y: 316 },
+      58: {x: 495 , y: 333 },
+      59: {x: 481 , y: 367 },
+      60: {x: 768 , y: 347 },
+      61: {x: 764 , y: 264 },
+      62: {x: 748 , y: 226 },
+      63: {x: 725 , y: 211},
+      64: {x: 694, y: 232},
+      65: {x: 820 , y: 156 },
+      66: {x: 801 , y: 142 },
+      67: {x: 790 , y: 127 },
+      68: {x: 773 , y: 114 },
+      69: {x: 753 , y: 106 },
+      70: {x: 727 , y: 118 },
+      71: {x: 708 , y: 103  },      
+      72: {x: 545 , y: 297 },
+      73: {x: 520 , y: 303 },
+      74: {x: 496 , y: 313},
+      75: {x: 595 , y: 206},
+      76: {x: 592 , y: 227 },
+      77: {x:591  , y: 250},
+      78: {x: 593 , y: 152 },
+      79: {x: 551 , y: 128 },
+      80: {x: 544 , y: 88 },
+      81: {x: 593 , y: 152 },
+      82: {x: 650 , y: 149 },
+      83: {x: 593 , y: 152 },
+      84: {x: 611 , y: 129 },
+      85: {x: 619 , y: 104 },
       86: {x: 835, y: 144 },
-      87: {x: 279, y: 225 },
-      88: {x: 307, y: 231 },
-      89: {x: 334, y: 236 },
-      90: {x: 362, y: 242 },
-      91: {x: 389, y: 247 },
-      92: {x: 417, y: 253 },
-      93: {x: 277, y: 236 },
-      94: {x: 302, y: 253 },
-      95: {x: 327, y: 269 },
-      96: {x: 352, y: 286 },
-      97: {x: 377, y: 302 },
-      98: {x: 402, y: 318 },
-      99: {x: 427, y: 335 },
-      100: {x: 278, y: 204},
-      101: {x: 305, y: 187},
-      102: {x: 331, y: 171},
-      103: {x: 358, y: 154},
-      104: {x: 384, y: 138},
-      105: {x: 410, y: 122},
-      106: {x: 437, y: 105},
-      107: {x: 463, y: 89 },      
-      108: {x: 490, y: 72 },      
-      109: {x: 795, y: 212},
-      110: {x: 761, y: 219},
-      111: {x: 728, y: 225},
+      87: {x: 288 , y: 194 },
+      88: {x: 324 , y: 211 },
+      89: {x: 351 , y: 226 },
+      90: {x: 382 , y: 234 },
+      91: {x: 410 , y: 239 },
+      92: {x: 432 , y: 245 },
+      93: {x: 249 , y: 239 },
+      94: {x: 272 , y: 246 },
+      95: {x: 309 , y: 254 },
+      96: {x: 327 , y: 277 },
+      97: {x: 348 , y: 295 },
+      98: {x: 369 , y: 292 },
+      99: {x: 402, y: 318},
+      100: {x: 288 , y: 194 },
+      101: {x: 324 , y: 211},
+      102: {x: 352 , y: 208},
+      103: {x: 374 , y: 199},
+      104: {x: 416 , y: 171},
+      105: {x: 419 , y: 124},
+      106: {x: 446 , y: 123},
+      107: {x: 455 , y: 112 },      
+      108: {x: 459 , y: 66 },      
+      109: {x: 793 , y: 201},
+      110: {x: 764 , y: 206},
+      111: {x: 725 , y: 211},
       112: {x: 694, y: 232},
-      113: {x: 859, y: 190},
-      114: {x: 890, y: 173},
-      115: {x: 920, y: 157},
-      116: {x: 846, y: 182},
-      117: {x: 504, y: 323},
-      118: {x: 556, y: 295},
-      119: {x: 608, y: 266},
-      120: {x: 48, y: 87  },     
-      121: {x: 74, y: 103 },      
-      122: {x: 99, y: 120 },      
-      123: {x: 125, y: 137},
-      124: {x: 150, y: 153},
-      125: {x: 176, y: 170},
-      126: {x: 201, y: 187},
-      127: {x: 227, y: 203},
-      128: {x: 921, y: 146},
-      129: {x: 892, y: 151},
-      130: {x: 835, y: 83 },      
-      131: {x: 804, y: 55 },      
-      132: {x: 778, y: 63 },      
-      133: {x: 753, y: 70 },      
-      134: {x: 727, y: 78 },      
-      135: {x: 561, y: 54 },      
-      136: {x: 895, y: 181},
-      137: {x: 894, y: 205},
-      138: {x: 906, y: 260}
+      113: {x: 862 , y: 195},
+      114: {x: 897 , y: 193},
+      115: {x: 921 , y: 171},
+      116: {x: 862 , y: 195},
+      117: {x: 496 , y: 313},
+      118: {x: 620 , y: 271},
+      119: {x: 644 , y: 262},
+      120: {x: 67 , y: 71  },     
+      121: {x: 107 , y: 114 },      
+      122: {x: 116 , y: 144 },      
+      123: {x: 173 , y: 127},
+      124: {x: 172 , y: 144},
+      125: {x: 213 , y: 157},
+      126: {x: 249  , y: 170},
+      127: {x: 246 , y: 203},
+      128: {x: 921 , y: 171},
+      129: {x: 897 , y: 193},
+      130: {x: 820 , y: 68 },      
+      131: {x: 820 , y: 68 },      
+      132: {x: 794 , y: 54 },      
+      133: {x: 758 , y: 41 },      
+      134: {x: 741 , y: 69 },      
+      135: {x: 544 , y: 88 },      
+      136: {x: 897 , y: 193},
+      137: {x: 897 , y: 193},
+      138: {x: 862 , y: 195},
     };
 
     // Posiciones de los nodos en el lienzo (ajusta según tu imagen)
@@ -316,7 +315,7 @@
       2: { x: 444, y: 258 },
       3: { x: 660, y: 238 },
       4: { x: 516, y: 56 },
-      5: { x: 649, y: 68 },
+      5: { x: 625 , y: 82 },
       6: { x: 584, y: 84 },
       7: { x: 702, y: 85 },
       8: { x: 816, y: 359 },
@@ -409,61 +408,75 @@
       ctx.translate(offsetX, offsetY);
       ctx.scale(scale, scale);
 
-      // Imagen de fondo
+      // Fondo
       ctx.drawImage(image, 0, 0);
 
-      // Aristas
-      ctx.strokeStyle = '#0066cc';
-      ctx.lineWidth = 2;
+      // 🔵 Aristas normales
       edges.forEach(edge => {
         const from = nodes.find(n => n.id === edge.from);
         const to = nodes.find(n => n.id === edge.to);
-        if (from && to) {
-          ctx.beginPath();
-          ctx.moveTo(from.x, from.y);
-          ctx.lineTo(to.x, to.y);
-          ctx.stroke();
+        if (!from || !to) return;
 
-          // Etiqueta tiempo
+        ctx.beginPath();
+        ctx.moveTo(from.x, from.y);
+        ctx.lineTo(to.x, to.y);
+        ctx.strokeStyle = '#0066cc';
+        ctx.lineWidth = 2;
+        ctx.stroke();
+
+        // Texto de tiempo
+        if (edge.time) {
           const midX = (from.x + to.x) / 2;
           const midY = (from.y + to.y) / 2;
           ctx.fillStyle = 'black';
           ctx.font = '14px Arial';
           ctx.textAlign = 'center';
           ctx.textBaseline = 'middle';
-          if (edge.time) ctx.fillText(edge.time, midX, midY);
+          ctx.fillText(edge.time, midX, midY);
         }
       });
 
-      // Nodos
+      // ✅ Ruta verde por encima
+      if (routePath.length > 1) {
+        ctx.strokeStyle = 'green';
+        ctx.lineWidth = 4;
+        for (let i = 0; i < routePath.length - 1; i++) {
+          const from = nodes.find(n => n.id === routePath[i]);
+          const to = nodes.find(n => n.id === routePath[i + 1]);
+          if (from && to) {
+            ctx.beginPath();
+            ctx.moveTo(from.x, from.y);
+            ctx.lineTo(to.x, to.y);
+            ctx.stroke();
+          }
+        }
+      }
+
+      // ⚫ Nodos (todos, normales, sin cambiar por la ruta)
       nodes.forEach(node => {
         ctx.beginPath();
         ctx.arc(node.x, node.y, 6, 0, 2 * Math.PI);
 
         if (node.id >= 23 && node.id <= 138) {
-          // Subnodo: solo nodo rojo sin texto ni info
-          ctx.fillStyle = "red";
+          ctx.fillStyle = "red"; // subnodo
           ctx.fill();
         } else {
-          // Nodo principal: negro con número amarillo dentro y etiqueta al lado
-          ctx.fillStyle = "black";
+          ctx.fillStyle = "black"; // nodo principal
           ctx.fill();
-          ctx.stroke();
 
-          // Número del nodo dentro del círculo en amarillo
+          // Número
           ctx.fillStyle = "yellow";
           ctx.font = "bold 10px sans-serif";
           ctx.textAlign = "center";
           ctx.textBaseline = "middle";
           ctx.fillText(node.id, node.x, node.y);
-
-          
         }
       });
 
-
       ctx.restore();
     }
+
+
 
     // Evento click para mostrar info en panel lateral
     container.addEventListener('click', e => {
@@ -527,6 +540,61 @@
       draw();
     });
 
+    // Algoritmo de Dijkstra para nodos principales (usa edges.weight)
+    function dijkstra(nodes, edges, startId, endId) {
+      const dist = {};
+      const prev = {};
+      const Q = new Set();
+
+      // Inicializar distancias y conjunto Q con todos los nodos
+      nodes.forEach(n => {
+        dist[n.id] = Infinity;
+        prev[n.id] = null;
+        Q.add(n.id);  // TODOS los nodos
+      });
+
+      dist[startId] = 0;
+
+      while (Q.size > 0) {
+        let u = null;
+        let minDist = Infinity;
+        Q.forEach(id => {
+          if (dist[id] < minDist) {
+            minDist = dist[id];
+            u = id;
+          }
+        });
+
+        if (u === null || u === endId) break;
+
+        Q.delete(u);
+
+        edges.forEach(edge => {
+          let neighbor = null;
+          if (edge.from === u && Q.has(edge.to)) neighbor = edge.to;
+          else if (edge.to === u && Q.has(edge.from)) neighbor = edge.from;
+
+          if (neighbor !== null) {
+            const alt = dist[u] + (edge.weight ?? 1);
+            if (alt < dist[neighbor]) {
+              dist[neighbor] = alt;
+              prev[neighbor] = u;
+            }
+          }
+        });
+      }
+
+      // Reconstruir ruta
+      const path = [];
+      let u = endId;
+      if (prev[u] !== null || u === startId) {
+        while (u !== null) {
+          path.unshift(u);
+          u = prev[u];
+        }
+      }
+      return { path, distance: dist[endId] };
+    }
 
     // Carga datos JSON y prepara nodos y aristas
     async function loadData(jsonFile) {
@@ -570,7 +638,122 @@
       } catch (e) {
         alert("❌ Error al cargar el archivo JSON: " + e.message);
       }
+      mostrarSelectorRuta();
     }
+
+    function mostrarSelectorRuta() {
+      // Solo en modo encuentra
+      if (currentMode !== 'encuentra') {
+        // Remover si existen
+        const existing = document.getElementById('ruta-container');
+        if (existing) existing.remove();
+        return;
+      }
+
+      // Crear contenedor
+      let container = document.getElementById('ruta-container');
+      if (!container) {
+        container = document.createElement('div');
+        container.id = 'ruta-container';
+        container.style.marginTop = '15px';
+        container.style.borderTop = '1px solid #ccc';
+        container.style.paddingTop = '10px';
+
+        // Selector inicio
+        const labelInicio = document.createElement('label');
+        labelInicio.textContent = 'Ruta inicio: ';
+        labelInicio.htmlFor = 'select-inicio';
+        container.appendChild(labelInicio);
+
+        const selectInicio = document.createElement('select');
+        selectInicio.id = 'select-inicio';
+        selectInicio.style.width = '100%';
+        selectInicio.style.marginBottom = '10px';
+        container.appendChild(selectInicio);
+
+        // Selector destino
+        const labelFin = document.createElement('label');
+        labelFin.textContent = 'Ruta destino: ';
+        labelFin.htmlFor = 'select-fin';
+        container.appendChild(labelFin);
+
+        const selectFin = document.createElement('select');
+        selectFin.id = 'select-fin';
+        selectFin.style.width = '100%';
+        selectFin.style.marginBottom = '10px';
+        container.appendChild(selectFin);
+
+        // Botón generar ruta
+        const btnGenerar = document.createElement('button');
+        btnGenerar.textContent = 'Generar ruta';
+        btnGenerar.style.width = '100%';
+        btnGenerar.style.padding = '10px';
+        btnGenerar.style.fontWeight = 'bold';
+        btnGenerar.style.cursor = 'pointer';
+        btnGenerar.style.borderRadius = '6px';
+        btnGenerar.style.backgroundColor = 'black';
+        btnGenerar.style.color = 'white';
+        btnGenerar.style.border = 'none';
+        btnGenerar.id = 'btn-generar-ruta';
+
+        container.appendChild(btnGenerar);
+
+        panelCarreras.parentNode.insertBefore(container, panelCarreras.nextSibling);
+
+        // Evento botón
+        btnGenerar.addEventListener('click', () => {
+          const startId = parseInt(selectInicio.value);
+          const endId = parseInt(selectFin.value);
+          if (isNaN(startId) || isNaN(endId)) {
+            alert('Selecciona ambos nodos para generar la ruta.');
+            return;
+          }
+          if (startId === endId) {
+            alert('Selecciona nodos diferentes.');
+            return;
+          }
+          generarRuta(startId, endId);
+        });
+      }
+
+      // Rellenar selects con nodos principales
+      const selectInicio = document.getElementById('select-inicio');
+      const selectFin = document.getElementById('select-fin');
+      selectInicio.innerHTML = '';
+      selectFin.innerHTML = '';
+
+      const principales = nodes.filter(n => n.id < 23 || n.id > 138);
+      principales.forEach(n => {
+        const option1 = document.createElement('option');
+        option1.value = n.id;
+        option1.textContent = `${n.label} (${n.id})`;
+        selectInicio.appendChild(option1);
+
+        const option2 = document.createElement('option');
+        option2.value = n.id;
+        option2.textContent = `${n.label} (${n.id})`;
+        selectFin.appendChild(option2);
+      });
+    }
+
+    let routePath = []; // variable global para guardar ruta
+
+    function generarRuta(startId, endId) {
+      const result = dijkstra(nodes, edges, startId, endId);
+      if (result.path.length === 0) {
+        alert('No se encontró ruta entre los nodos seleccionados.');
+        return;
+      }
+
+      routePath = result.path; // guardamos ruta para dibujar
+
+      // Mostrar tiempo total (peso)
+      panelInfo.textContent = `Tiempo estimado total: ${result.distance} minutos`;
+
+      draw(); // redibujar canvas incluyendo ruta en verde
+    }
+
+
 
 
     // Esperar a que la imagen cargue para iniciar todo
